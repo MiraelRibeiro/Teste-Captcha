@@ -1,0 +1,92 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Projetos\\Testes\\CredValue-teste\\CredValue-teste\\CredValue-teste.csproj": {}
+  },
+  "projects": {
+    "E:\\Projetos\\Testes\\CredValue-teste\\CredValue-teste\\CredValue-teste.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Projetos\\Testes\\CredValue-teste\\CredValue-teste\\CredValue-teste.csproj",
+        "projectName": "CredValue-teste",
+        "projectPath": "E:\\Projetos\\Testes\\CredValue-teste\\CredValue-teste\\CredValue-teste.csproj",
+        "packagesPath": "C:\\Users\\mira1\\.nuget\\packages\\",
+        "outputPath": "E:\\Projetos\\Testes\\CredValue-teste\\CredValue-teste\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mira1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "2Captcha": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "EasyAutomation": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[110.2.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.10.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[114.0.5735.9000, )"
+            },
+            "WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[26.14.313457.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
